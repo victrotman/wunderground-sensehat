@@ -6,13 +6,13 @@ import time
 from ISStreamer.Streamer import Streamer
 
 # --------- User Settings ---------
-STATE = "CA"
-CITY = "San_Francisco"
-WUNDERGROUND_API_KEY = "PLACE YOUR WUNDERGROUND API KEY HERE"
+STATE = "Australia"
+CITY = "Melbourne"
+WUNDERGROUND_API_KEY = "404241da82ed2135"
 BUCKET_NAME = ":partly_sunny: " + CITY + " Weather"
 BUCKET_KEY = "wu1"
-ACCESS_KEY = "PLACE YOUR INITIAL STATE ACCESS KEY HERE"
-MINUTES_BETWEEN_READS = 15
+ACCESS_KEY = "MMe3XPkptI5TGwCcpQlnKWlytofawEAx"
+MINUTES_BETWEEN_READS = 1
 # ---------------------------------
 
 def isFloat(string):
